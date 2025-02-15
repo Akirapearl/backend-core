@@ -2,12 +2,12 @@ package main
 
 // source: https://go.dev/doc/tutorial/database-access#single_row
 import (
+	"backend-core/methods/create"
+	"backend-core/methods/delete"
+	"backend-core/methods/read"
+	"backend-core/methods/update"
 	"database/sql"
 	"log"
-	"myweatherapi/mysqlAPI/methods/create"
-	"myweatherapi/mysqlAPI/methods/delete"
-	"myweatherapi/mysqlAPI/methods/read"
-	"myweatherapi/mysqlAPI/methods/update"
 	"net/http"
 
 	"github.com/go-sql-driver/mysql"

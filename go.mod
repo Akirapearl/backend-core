@@ -1,4 +1,4 @@
-module myweatherapi/mysqlAPI
+module backend-core
 
 go 1.23.4
 

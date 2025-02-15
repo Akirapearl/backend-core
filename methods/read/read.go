@@ -1,9 +1,9 @@
 package read
 
 import (
+	"backend-core/model"
 	"database/sql"
 	"encoding/json"
-	"myweatherapi/mysqlAPI/model"
 	"net/http"
 )
 
